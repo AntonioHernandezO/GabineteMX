@@ -1,0 +1,40 @@
+/*Hoja de estilos para los compentarios*/
+
+.Estrella input[type="radio"] {
+    display: none;
+}
+
+.Estrella label {
+    color: grey;
+}
+
+.Estrella label {
+    direction: rtl !important;
+    unicode-bidi: bidi-override !important;
+}
+
+.Estrella label {
+    font-size: larger;
+}
+
+.Estrella label:hover,
+label:hover~.scome {
+    color: orange;
+}
+
+.Estrella input[type="radio"]:checked~.scome {
+    color: orange;
+}
+
+.StarComentV {
+    font-size: medium;
+}
+
+.Estrella2 .check {
+    color: orange;
+}
+
+#WCU {
+    width: 72%;
+    height: auto;
+}
